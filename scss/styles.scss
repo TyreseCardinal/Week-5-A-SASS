@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 10rem;
+}
+
+header {
+background-color: red;
+>h1 {
+  color:blue;
+}
+}
+
+main {
+ background-color: blue;
+ >h2{
+  color: red;
+ }
+ &:hover {
+  box-shadow: 0px 5px 7px 0px red;
+ }
+}
+
+footer {
+  background-color: aqua;
+  >h2 {
+    color: yellow;
+  }
+  &:hover{
+    box-shadow: 0px 5px 7px 0px gray;
+  }
+}
