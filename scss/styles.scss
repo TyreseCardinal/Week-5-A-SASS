@@ -1,3 +1,6 @@
+$main-font-color: orange;
+
+
 body {
   display: grid;
   grid-template-rows: repeat(3,1fr);
@@ -5,7 +8,7 @@ body {
 }
 
 header {
-background-color: red;
+background-color: $main-font-color;
 >h1 {
   color:blue;
 }
@@ -14,10 +17,10 @@ background-color: red;
 main {
  background-color: blue;
  >h2{
-  color: red;
+  color: $main-font-color;
  }
  &:hover {
-  box-shadow: 7px 5px 7px 0px red;
+  box-shadow: 7px 5px 7px 0px $main-font-color;
  }
 }
 
