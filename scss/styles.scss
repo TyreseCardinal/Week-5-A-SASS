@@ -1,3 +1,5 @@
+@use "header";
+
 $main-font-color: orange;
 
 
@@ -5,13 +7,6 @@ body {
   display: grid;
   grid-template-rows: repeat(3,1fr);
   row-gap: 10rem;
-}
-
-header {
-background-color: $main-font-color;
->h1 {
-  color:blue;
-}
 }
 
 main {

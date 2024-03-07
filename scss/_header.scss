@@ -1,0 +1,15 @@
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+header img {
+  justify-self: start;
+  padding-left: 25px;
+}
+
+header a {
+  font-size: 1.5rem;
+}
